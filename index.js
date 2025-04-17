@@ -5,11 +5,13 @@ const beautify = require('js-beautify').html;
 
 (async () => {
     
+    let githubURL = process.argv[2];
+
     let completedQuestions = [];
     let readMeFileName = "README.md";
 
     const allLeetCodeQsPromise = axios.post("https://leetcode.com/api/problems/all");
-    const githubRepoPromise = axios.get("https://api.github.com/repos/pSkywalker/leetCodeSolutions/contents");
+    const githubRepoPromise = axios.get(githubURL);
 
     
     let [allLeetCodeQs, githubRepo] = await Promise.all([allLeetCodeQsPromise, githubRepoPromise]);
@@ -40,8 +42,6 @@ const beautify = require('js-beautify').html;
     readMe += "<tbody>" + rowGenerator(completedQuestions) + "</tbody>";
     readMe += "</table>";
     const prettyHtml = beautify(readMe, { indent_size: 2 });
-    console.log( prettyHtml , rowGenerator(completedQuestions));
-    //console.log(prettyHtml);
     fs.writeFile(filePath, prettyHtml, 'utf8', (err) => {
         if (err) {
           console.error('An error occurred while writing the file:', err);
