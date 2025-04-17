@@ -27,7 +27,7 @@ cd leetCodeREADMEGenerator</code>
 <code>npm install axios js-beautify</code>
 
 <h4> Step Three </h4>
-<code>node index.js <GitHub_API_URL></code>
+<code>node index.js GitHub_API_URL</code>
 
 <h4 Example : </h4> 
 <code>node index.js https://api.github.com/repos/yourusername/leetCodeREADMEGenerator/contents/solutions</code>
