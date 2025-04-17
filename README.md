@@ -8,6 +8,30 @@
 
 <p align="center"><b>Automatically create a colorful and structured README.md from your solved LeetCode problems 🚀</b></p>
 
+💡 Features
+🔄 Fetches all LeetCode questions via the official API
+
+🧠 Reads your GitHub repo file structure
+
+🧩 Matches filenames with LeetCode question IDs
+
+🎨 Builds a Bootstrap-powered HTML table with colorful badges
+
+📄 Generates a beautiful README.md file
+
+<h4> Step One </h4>
+<code>git clone https://github.com/yourusername/leetCodeREADMEGenerator
+cd leetCodeREADMEGenerator</code>
+
+<h4> Step two </h4>
+<code>npm install axios js-beautify</code>
+
+<h4> Step Three </h4>
+<code>node index.js <GitHub_API_URL></code>
+
+<h4 Example : </h4> 
+<code>node index.js https://api.github.com/repos/yourusername/leetCodeREADMEGenerator/contents/solutions</code>
+
 
 <hr> 
 <h1> Sample README.md </h1>
