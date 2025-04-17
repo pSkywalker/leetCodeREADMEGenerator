@@ -1,3 +1,17 @@
+<h1 align="center">🧠 LeetCode README Generator</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Auto--Generate-LeetCode%20README-blue?style=for-the-badge" alt="Generator Badge" />
+  <img src="https://img.shields.io/badge/Built%20With-Node.js-green?style=for-the-badge" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2025--04--17-brightgreen?style=for-the-badge" alt="Updated" />
+</p>
+
+<p align="center"><b>Automatically create a colorful and structured README.md from your solved LeetCode problems 🚀</b></p>
+
+
+<hr> 
+<h1> Sample README.md </h1>
+
 <h1 align="center">🚀 My LeetCode Journey</h1>
 <p align="center"><img src="https://img.shields.io/badge/Problems%20Solved-✨%20X%20/%20Y-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-JavaScript-yellow?style=for-the-badge" alt="Language" /> <img src="https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
 <p align="center"><b>A visually organized collection of my LeetCode solutions 🚀</b><br /><i>Click through each problem to see the code, patterns, and explanations!</i></p>
