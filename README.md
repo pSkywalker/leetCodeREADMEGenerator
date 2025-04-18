@@ -1,43 +1,5 @@
-<h1 align="center">🧠 LeetCode README Generator</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Auto--Generate-LeetCode%20README-blue?style=for-the-badge" alt="Generator Badge" />
-  <img src="https://img.shields.io/badge/Built%20With-Node.js-green?style=for-the-badge" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Last%20Updated-2025--04--17-brightgreen?style=for-the-badge" alt="Updated" />
-</p>
-
-<p align="center"><b>Automatically create a colorful and structured README.md from your solved LeetCode problems 🚀</b></p>
-
-💡 Features
-🔄 Fetches all LeetCode questions via the official API
-
-🧠 Reads your GitHub repo file structure
-
-🧩 Matches filenames with LeetCode question IDs
-
-🎨 Builds a Bootstrap-powered HTML table with colorful badges
-
-📄 Generates a beautiful README.md file
-
-<h4> Step One </h4>
-<code>git clone https://github.com/yourusername/leetCodeREADMEGenerator
-cd leetCodeREADMEGenerator</code>
-
-<h4> Step two </h4>
-<code>npm install axios js-beautify</code>
-
-<h4> Step Three </h4>
-<code>node index.js GitHub_API_URL</code>
-
-<h4 Example : </h4> 
-<code>node index.js https://api.github.com/repos/yourusername/leetCodeREADMEGenerator/contents/solutions</code>
-
-
-<hr> 
-<h1> Sample README.md </h1>
-
 <h1 align="center">🚀 My LeetCode Journey</h1>
-<p align="center"><img src="https://img.shields.io/badge/Problems%20Solved-✨%20X%20/%20Y-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-JavaScript-yellow?style=for-the-badge" alt="Language" /> <img src="https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
+<p align="center"><img src="https://img.shields.io/badge/Problems%20Solved-✨%20X%20/%20Y-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-Java-red?style=for-the-badge" alt="Java" /> <img src="https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
 <p align="center"><b>A visually organized collection of my LeetCode solutions 🚀</b><br /><i>Click through each problem to see the code, patterns, and explanations!</i></p>
 <hr />
 <table class='table table-striped table-hover'>
@@ -313,6 +275,12 @@ cd leetCodeREADMEGenerator</code>
       <td>[Question desciption](https://leetcode.com/problems/reverse-linked-list-ii/description/) </td>
     </tr>
     <tr>
+      <th> 125</th>
+      <td> Valid Palindrome</td>
+      <td> <span class="badge text-bg-success">Easy</span></td>
+      <td>[Question desciption](https://leetcode.com/problems/valid-palindrome/description/) </td>
+    </tr>
+    <tr>
       <th> 136</th>
       <td> Single Number</td>
       <td> <span class="badge text-bg-success">Easy</span></td>
@@ -323,6 +291,12 @@ cd leetCodeREADMEGenerator</code>
       <td> Single Number II</td>
       <td> <span class="badge text-bg-warning">Medium</span></td>
       <td>[Question desciption](https://leetcode.com/problems/single-number-ii/description/) </td>
+    </tr>
+    <tr>
+      <th> 141</th>
+      <td> Linked List Cycle</td>
+      <td> <span class="badge text-bg-success">Easy</span></td>
+      <td>[Question desciption](https://leetcode.com/problems/linked-list-cycle/description/) </td>
     </tr>
     <tr>
       <th> 143</th>
