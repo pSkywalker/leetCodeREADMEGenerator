@@ -33,7 +33,7 @@
   Supported languages : <code> const supportedLanguages = ["javascript", "python", "java", "c++", "c#", "go", "rust", "typescript", "php", "ruby", "swift", "kotlin", "dart", "scala", "shell"];</code>
   
   <h4 Example : </h4> 
-  <code>node index.js https://api.github.com/repos/yourusername/leetCodeREADMEGenerator/contents Java</code>
+  <code>node index.js https://api.github.com/repos/yourusername/yourLeetCodeRepoName/contents Java</code>
 
   <h1 align="center">🚀 My LeetCode Journey</h1>
 <p align="center"><img src="https://img.shields.io/badge/Problems%20Solve%2066/3530-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="TypeScript" /> <img src="https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
