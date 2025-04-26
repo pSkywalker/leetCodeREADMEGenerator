@@ -38,7 +38,7 @@ const beautify = require('js-beautify').html;
 
     const filePath = path.join(__dirname, readMeFileName);
 
-    let readMe = '<h1 align="center">🚀 My LeetCode Journey</h1><p align="center"><img src="https://img.shields.io/badge/Problems%20Solved-✨%20X%20/%20Y-blueviolet?style=for-the-badge" alt="Problems Solved" /> '+getLanguageBadge(lang) +' <img src="https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen?style=for-the-badge" alt="Updated" /></p><p align="center"><b>A visually organized collection of my LeetCode solutions 🚀</b><br/><i>Click through each problem to see the code, patterns, and explanations!</i></p><hr/>';
+    let readMe = '<h1 align="center">🚀 My LeetCode Journey</h1><p align="center"><img src="https://img.shields.io/badge/Problems%20Solve%20'+githubRepo.length+'/'+allLeetCodeQs.stat_status_pairs.length+'-blueviolet?style=for-the-badge" alt="Problems Solved" /> '+getLanguageBadge(lang) +' <img src="https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen?style=for-the-badge" alt="Updated" /></p><p align="center"><b>A visually organized collection of my LeetCode solutions 🚀</b><br/><i>Click through each problem to see the code, patterns, and explanations!</i></p><hr/>';
     readMe += "<table class='table table-striped table-hover'>  <thead> <td> Question number </td> <td> Question Title </td> <td> Difficulty </td> <td> Link to description </td> </thead>"
     //console.log(rowGenerator(completedQuestions))
     readMe += "<tbody>" + rowGenerator(completedQuestions) + "</tbody>";
