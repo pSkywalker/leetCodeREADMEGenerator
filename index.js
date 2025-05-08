@@ -107,7 +107,7 @@ function rowGenerator( completedQuestions ){
     //console.log(completedQuestions, "-");
       completedQuestions = completedQuestions.sort( (a,b) => { return a.questionNumber - b.questionNumber } )
         for( let x = 0; x < completedQuestions.length; x++ ){
-            rows += ("<tr><th> " + completedQuestions[x].questionNumber + "</th> <td> " + completedQuestions[x].questionTitle + "</td> <td> " + getDifficultyBadge(completedQuestions[x].questionDifficulty) + "</td> <td>" + "[Question desciption](https://leetcode.com/problems/"+ completedQuestions[x].question_title_slug +"/description/)" + " </td></tr>")
+            rows += ("<tr><th> " + completedQuestions[x].questionNumber + "</th> <td> " + completedQuestions[x].questionTitle + "</td> <td> " + getDifficultyBadge(completedQuestions[x].questionDifficulty) + "</td> <td>" + "https://leetcode.com/problems/"+ completedQuestions[x].question_title_slug +"/description/" + " </td></tr>")
         }
     return rows;
 };
