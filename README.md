@@ -21,19 +21,18 @@
  
   
   <h4> Step One </h4>
-  <code>git clone https://github.com/yourusername/leetCodeREADMEGenerator
-  cd leetCodeREADMEGenerator</code>
+  <code>npm install -g leetcode-readme-generator</code>
   
-  <h4> Step two </h4>
-  <code>npm install axios js-beautify</code>
-  
-  <h4> Step Three </h4>
-  <code>node index.js GitHub_API_URL favLang </code>
+  <h4> Step Two </h4>
+  <code>leetcode-readme GitHub_API_URL favLang </code>
  
   Supported languages : <code> const supportedLanguages = ["javascript", "python", "java", "c++", "c#", "go", "rust", "typescript", "php", "ruby", "swift", "kotlin", "dart", "scala", "shell"];</code>
   
   <h4 Example : </h4> 
-  <code>node index.js https://api.github.com/repos/yourusername/yourLeetCodeRepoName/contents Java</code>
+  <code>leetcode-readme https://api.github.com/repos/yourusername/yourLeetCodeRepoName/contents Java</code>
+  
+  <hr>
+
 <h1 align="center">🚀 My LeetCode Journey</h1>
 <p align="center"><img src="https://img.shields.io/badge/Problems%20Solve%2066/3540-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="TypeScript" /> <img src="https://img.shields.io/badge/Last%20Updated-May%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
 <p align="center"><b>A visually organized collection of my LeetCode solutions 🚀</b><br /><i>Click through each problem to see the code, patterns, and explanations!</i></p>
