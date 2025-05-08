@@ -19,13 +19,14 @@ const beautify = require('js-beautify').html;
     allLeetCodeQs = allLeetCodeQs.data;
     githubRepo = githubRepo.data
     githubRepo.map( (answer) => {
-        let answerFileName =  parseInt(answer.name.replace(/[^0-9]/g, ""));
+      let answerFileName =  parseInt(answer.name.replace(/[^0-9]/g, ""));
         if( answer.name != "README.md" && answerFileName != isNaN ){ 
             let index = allLeetCodeQs.stat_status_pairs.findIndex(q => {
                 return q.stat.question_id === answerFileName;
             })
             if( index != -1 ){ 
                 completedQuestions.push( { 
+                    gitLink: answer._links.html,
                     gitPath: answer.path, 
                     questionNumber: allLeetCodeQs.stat_status_pairs[index].stat.question_id,
                     questionTitle:  allLeetCodeQs.stat_status_pairs[index].stat.question__title, 
@@ -35,7 +36,6 @@ const beautify = require('js-beautify').html;
             }
         }
     } );
-
     const filePath = path.join(__dirname, readMeFileName);
 
     let readMe = '<h1 align="center">🚀 My LeetCode Journey</h1><p align="center"><img src="https://img.shields.io/badge/Problems%20Solve%20'+githubRepo.length+'/'+allLeetCodeQs.stat_status_pairs.length+'-blueviolet?style=for-the-badge" alt="Problems Solved" /> '+getLanguageBadge(lang) +' <img src="https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen?style=for-the-badge" alt="Updated" /></p><p align="center"><b>A visually organized collection of my LeetCode solutions 🚀</b><br/><i>Click through each problem to see the code, patterns, and explanations!</i></p><hr/>';
@@ -107,7 +107,7 @@ function rowGenerator( completedQuestions ){
     //console.log(completedQuestions, "-");
       completedQuestions = completedQuestions.sort( (a,b) => { return a.questionNumber - b.questionNumber } )
         for( let x = 0; x < completedQuestions.length; x++ ){
-            rows += ("<tr><th> " + completedQuestions[x].questionNumber + "</th> <td> " + completedQuestions[x].questionTitle + "</td> <td> " + getDifficultyBadge(completedQuestions[x].questionDifficulty) + "</td> <td>" + "https://leetcode.com/problems/"+ completedQuestions[x].question_title_slug +"/description/" + " </td></tr>")
+            rows += ("<tr><th> <a href= '" + completedQuestions[x].gitLink +"'> "+completedQuestions[x].questionNumber+" </a></th> <td> " + completedQuestions[x].questionTitle + "</td> <td> " + getDifficultyBadge(completedQuestions[x].questionDifficulty) + "</td> <td>" + "https://leetcode.com/problems/"+ completedQuestions[x].question_title_slug +"/description/" + " </td></tr>")
         }
     return rows;
 };
