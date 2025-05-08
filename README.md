@@ -3,7 +3,7 @@
   <p align="center">
     <img src="https://img.shields.io/badge/Auto--Generate-LeetCode%20README-blue?style=for-the-badge" alt="Generator Badge" />
     <img src="https://img.shields.io/badge/Built%20With-Node.js-green?style=for-the-badge" alt="Node.js" />
-    <img src="https://img.shields.io/badge/Last%20Updated-2025--04--17-brightgreen?style=for-the-badge" alt="Updated" />
+    <img src="https://img.shields.io/badge/Last%20Updated-2025--05--08-brightgreen?style=for-the-badge" alt="Updated" />
   </p>
   
   <p align="center"><b>Automatically create a colorful and structured README.md from your solved LeetCode problems 🚀</b></p>
@@ -35,7 +35,7 @@
   <h4 Example : </h4> 
   <code>node index.js https://api.github.com/repos/yourusername/yourLeetCodeRepoName/contents Java</code>
 <h1 align="center">🚀 My LeetCode Journey</h1>
-<p align="center"><img src="https://img.shields.io/badge/Problems%20Solve%2066/3540-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="TypeScript" /> <img src="https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
+<p align="center"><img src="https://img.shields.io/badge/Problems%20Solve%2066/3540-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="TypeScript" /> <img src="https://img.shields.io/badge/Last%20Updated-May%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
 <p align="center"><b>A visually organized collection of my LeetCode solutions 🚀</b><br /><i>Click through each problem to see the code, patterns, and explanations!</i></p>
 <hr />
 <table class='table table-striped table-hover'>
