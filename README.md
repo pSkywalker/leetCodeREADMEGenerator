@@ -24,12 +24,12 @@
   <code>npm install -g leetcode-readme-generator</code>
   
   <h4> Step Two </h4>
-  <code>leetcode-readme GitHub_API_URL favLang </code>
+  <code>leetcode-readme -git GitHub_API_URL -tech favLang </code>
  
   Supported languages : <code> const supportedLanguages = ["javascript", "python", "java", "c++", "c#", "go", "rust", "typescript", "php", "ruby", "swift", "kotlin", "dart", "scala", "shell"];</code>
   
   <h4 Example : </h4> 
-  <code>leetcode-readme https://api.github.com/repos/yourusername/yourLeetCodeRepoName/contents Java</code>
+  <code>leetcode-readme -git https://api.github.com/repos/yourusername/yourLeetCodeRepoName/contents -t Java</code>
   
   <hr>
 

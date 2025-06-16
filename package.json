@@ -1,8 +1,8 @@
 {
   "name": "leet-code-read-me-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool to automatically generate a structured README for LeetCode solutions, making it easier to document your coding challenges and projects.",
-  "type": "module", 
+  "type": "module",
   "bin": {
     "leetcode-readme": "bin/cli.js"
   },
@@ -32,8 +32,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.8.4",
-    "cli-progress": "^3.12.0",
-    "js-beautify": "^1.15.4"
+    "axios": "^1.9.0",
+    "js-beautify": "^1.15.4",
+    "parsemate": "^0.0.12"
   }
 }
